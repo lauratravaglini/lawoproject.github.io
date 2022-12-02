@@ -29,11 +29,22 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+h4 {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 1vw;
+}
+
 h5 {
     font-family: 'Noto Serif Display', serif;
-    font-size: 26px;
-    font-weight: 200;
-    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 1vw;
 }
 
 
@@ -54,19 +65,25 @@ span {
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-    padding: 2%;
+    padding: 1.2vw 2vw;
 }
+
 .ol {
     position: relative !important;
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-    padding: 4%;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+.ol p {
+    text-align: justify;
+    font-size: 1.4vw;
 }
 
 .text p {
-    text-align: left;
-    font-size: 19px;
+    text-align: justify;
+    font-size: 1.4vw;
 }
 
 body {
@@ -107,18 +124,13 @@ article:first-child:hover {
     background-color: #1e1e1e;
 }
 
-article:nth-child(9):hover, article:nth-child(10):hover,
-article:nth-child(11):hover, article:nth-child(21):hover, article:nth-child(23):hover, 
-article:nth-child(25):hover, article:nth-child(27):hover, article:nth-child(29):hover, 
-article:nth-child(35):hover, article:nth-child(36):hover,  article:nth-child(37):hover{
+article:nth-child(9):hover, article:nth-child(10):hover, article:nth-child(11):hover {
     background-color: #1e1e1e;
     color: #F1EDE9 !important;
 }
 
 article:nth-child(9):hover a, article:nth-child(10):hover a,
-article:nth-child(11):hover a, article:nth-child(21):hover a, article:nth-child(23):hover a, 
-article:nth-child(25):hover a, article:nth-child(27):hover a, 
-article:nth-child(29):hover a, article:nth-child(37):hover a  {
+article:nth-child(11):hover a {
     color: #F1EDE9 !important;
     font-style: italic;
 }
@@ -146,7 +158,7 @@ article:nth-child(14) {
     background-position-y: 50%;
 }
 
-article:nth-child(17) {
+article:nth-child(19) {
     background-image: url("./img/staircase.png");
     background-size: 20vw;
     background-repeat:repeat-y;
@@ -161,7 +173,7 @@ article:first-child {
     border: solid 1px #1e1e1e;
 }
 
-article:first-child:hover #logo, article:nth-child(35):hover #unibo, article:nth-child(36):hover #github {
+article:first-child:hover #logo {
     filter: invert(1);
 }
 
@@ -185,9 +197,9 @@ article:first-child:hover #logo, article:nth-child(35):hover #unibo, article:nth
 
 article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(5), article:nth-child(6),
 article:nth-child(9), article:nth-child(10), article:nth-child(11), article:nth-child(12), article:nth-child(13), 
-article:nth-child(14), article:nth-child(15), article:nth-child(18), article:nth-child(22),article:nth-child(24), 
-article:nth-child(26), article:nth-child(29),  article:nth-child(31),  article:nth-child(33),
-article:nth-child(35) {
+article:nth-child(14),  article:nth-child(22),article:nth-child(24), article:nth-child(26), article:nth-child(28), 
+article:nth-child(30), article:nth-child(35), article:nth-child(36), article:nth-child(38), article:nth-child(40),
+article:nth-child(41){
     grid-column-end: span 2; 
     border-right: solid 1px #1e1e1e;
     border-bottom: solid 1px #1e1e1e;
@@ -197,61 +209,64 @@ article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-ch
     border-top: solid 1px #1e1e1e;
 }
 
-article:nth-child(7) {
+article:nth-child(7), article:nth-child(32), article:nth-child(34)  {
     grid-column-end: span 6; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
 }
 
-article:nth-child(16),  article:nth-child(21),
-article:nth-child(23), article:nth-child(25), article:nth-child(30),
-article:nth-child(32),  article:nth-child(34) {
+/* titoli */
+article:nth-child(16), article:nth-child(17),article:nth-child(18),
+article:nth-child(37), article:nth-child(39), article:nth-child(42),
+article:nth-child(45) {
+    grid-column-end: span 5; 
+    border-bottom: solid 1px #1e1e1e;
+    border-right: solid 1px #1e1e1e;
+}
+
+article:nth-child(21),article:nth-child(23), article:nth-child(25), 
+article:nth-child(27), article:nth-child(29) {
     grid-column-end: span 14; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
 }
 
+/*
 article:nth-child(27) {
     grid-column-end: span 7; 
     border-bottom: solid 1px #1e1e1e;
 
 }
 
+
 article:nth-child(28) {
     grid-column-end: span 7; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
 }
+*/
 
-article:nth-child(19) {
-    grid-column-end: span 14; 
-    border-bottom: solid 1px #1e1e1e;
-    border-right: solid 1px #1e1e1e;
-}
-
-article:nth-child(8),
-article:nth-child(37), article:nth-child(40){
+article:nth-child(8) {
     grid-column-end: span 4; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
 }
 
-article:nth-child(15),article:nth-child(18),
-article:nth-child(20), article:nth-child(22), article:nth-child(24),
-article:nth-child(26), article:nth-child(28), article:nth-child(35) {
+article:nth-child(15), article:nth-child(20), article:nth-child(22), article:nth-child(24),
+article:nth-child(26), article:nth-child(28), article:nth-child(30) {
     border-left: solid 1px #1e1e1e;
 }
 
 
-article:nth-child(38), article:nth-child(39), article:nth-child(41), article:nth-child(42), article:nth-child(43), 
-article:nth-child(44), article:nth-child(45), article:nth-child(46) {
+article:nth-child(15), article:nth-child(31), article:nth-child(33), article:nth-child(35), article:nth-child(38), article:nth-child(39), article:nth-child(41), article:nth-child(42), article:nth-child(43), 
+article:nth-child(44), article:nth-child(45), article:nth-child(46),  article:nth-child(47),  article:nth-child(48),  article:nth-child(49),  article:nth-child(50),  article:nth-child(51) {
     border-right: solid 1px #1e1e1e;
     border-bottom: solid 1px #1e1e1e;
 } 
 
-article:nth-child(17) {
+article:nth-child(19) {
     grid-column-end: span 4; 
-    grid-row-end: span 9;
+    grid-row-end: span 8;
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
     align-content: center;
