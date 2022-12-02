@@ -124,7 +124,7 @@ article:nth-child(29):hover a, article:nth-child(37):hover a  {
 }
 
 article:nth-child(12) {
-    background-image: url("./img/kre/window3.png");
+    background-image: url("./img/window3.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
@@ -132,14 +132,14 @@ article:nth-child(12) {
 }
 
 article:nth-child(13) {
-    background-image: url("./img/kre/window1.png");
+    background-image: url("./img/window1.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
 }
 article:nth-child(14) {
-    background-image: url("./img/kre/window2.png");
+    background-image: url("./img/window2.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
@@ -147,7 +147,7 @@ article:nth-child(14) {
 }
 
 article:nth-child(17) {
-    background-image: url("./img/kre/staircase.png");
+    background-image: url("./img/staircase.png");
     background-size: 20vw;
     background-repeat:repeat-y;
     background-position-x: 50%;
