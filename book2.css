@@ -29,12 +29,19 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+h3 {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 1.9vw;
+    font-weight:200;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
 h4 {
     font-family: 'Noto Serif Display', serif;
     font-size: 1.5vw;
     font-weight: 200;
     text-align: left;
-    padding-left: .2vw;
 }
 
 h5 {
@@ -46,14 +53,6 @@ h5 {
     padding-right: 1vw;
 }
 
-
-h3 {
-    font-family: 'Noto Serif Display', serif;
-    font-size: 1.9vw;
-    font-weight:200;
-    text-align: left;
-    margin-bottom: 10px;
-}
 
 span {
     font-style: italic;
@@ -83,6 +82,10 @@ span {
 .text p {
     text-align: justify;
     font-size: 1.4vw;
+}
+
+.margin {
+    margin-bottom: 4vh;
 }
 
 body {
@@ -162,6 +165,48 @@ article:nth-child(19) {
     background-size: 20vw;
     background-repeat:repeat-y;
     background-position-x: 50%;
+    grid-column-end: span 4; 
+    grid-row-end: span 10;
+    border-bottom: solid 1px #1e1e1e;
+    border-right: solid 1px #1e1e1e;
+    align-content: center;
+}
+
+article:nth-child(24) {
+    background-image: url("./img/Perec_original_grid.jpg");
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    grid-column-end: span 5; 
+    grid-row-end: span 2;
+    border-bottom: solid 1px #1e1e1e;
+    border-right: solid 1px #1e1e1e;
+
+}
+
+
+article:nth-child(27) {
+    background-image: url("./img/chessboard_apartments.jpg");
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    grid-column-end: span 5; 
+    grid-row-end: span 2;
+    border-bottom: solid 1px #1e1e1e;
+    border-right: solid 1px #1e1e1e;
+}
+
+
+article:nth-child(33) {
+    background-image: url("./img/chessboard_knight_moves.jpg");
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    grid-column-end: span 5; 
+    grid-row-end: span 2;
+    border-bottom: solid 1px #1e1e1e;
+    border-right: solid 1px #1e1e1e;
 }
 
 article:first-child {
@@ -196,8 +241,9 @@ article:first-child:hover #logo {
 
 article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(5), article:nth-child(6),
 article:nth-child(9), article:nth-child(10), article:nth-child(11), article:nth-child(12), article:nth-child(13), 
-article:nth-child(14), article:nth-child(15), article:nth-child(16), article:nth-child(18), article:nth-child(22), article:nth-child(24), article:nth-child(26), article:nth-child(28), 
-article:nth-child(30), article:nth-child(35), article:nth-child(36), article:nth-child(38), article:nth-child(39), 
+article:nth-child(14), article:nth-child(15), article:nth-child(16), article:nth-child(18), article:nth-child(22), 
+article:nth-child(25), article:nth-child(26), article:nth-child(29), article:nth-child(31),  article:nth-child(34), 
+article:nth-child(36), article:nth-child(38), article:nth-child(39), 
 article:nth-child(41), article:nth-child(42), article:nth-child(43), article:nth-child(44) {
     grid-column-end: span 2; 
     border-right: solid 1px #1e1e1e;
@@ -208,14 +254,14 @@ article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-ch
     border-top: solid 1px #1e1e1e;
 }
 
-article:nth-child(7), article:nth-child(32), article:nth-child(34) {
+article:nth-child(7) {
     grid-column-end: span 6; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
 }
 
 
-article:nth-child(17){
+article:nth-child(17) {
     grid-column-end: span 10; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
@@ -228,66 +274,49 @@ article:nth-child(37), article:nth-child(40) {
 
 }
 
-article:nth-child(21),article:nth-child(23), article:nth-child(25), 
-article:nth-child(27), article:nth-child(29) {
+article:nth-child(21) {
     grid-column-end: span 14; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
 }
 
-/*
-article:nth-child(27) {
-    grid-column-end: span 7; 
-    border-bottom: solid 1px #1e1e1e;
-
-}
-
-
-article:nth-child(28) {
-    grid-column-end: span 7; 
-    border-bottom: solid 1px #1e1e1e;
-    border-right: solid 1px #1e1e1e;
-}
-*/
-
-article:nth-child(8), article:nth-child(45), article:nth-child(48) {
+article:nth-child(8),article:nth-child(45), article:nth-child(48) {
     grid-column-end: span 4; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
 }
 
-article:nth-child(15), article:nth-child(20), article:nth-child(22), article:nth-child(24),
-article:nth-child(26), article:nth-child(28), article:nth-child(30) {
+article:nth-child(15), article:nth-child(20), article:nth-child(22) {
     border-left: solid 1px #1e1e1e;
 }
 
 
-article:nth-child(15), article:nth-child(31), article:nth-child(33), article:nth-child(35), article:nth-child(38), article:nth-child(39), article:nth-child(41), article:nth-child(42), article:nth-child(43), 
+article:nth-child(15), article:nth-child(33), article:nth-child(35), article:nth-child(38), article:nth-child(39), article:nth-child(41), article:nth-child(42), article:nth-child(43), 
 article:nth-child(44), article:nth-child(45), article:nth-child(46),  article:nth-child(47),  article:nth-child(48),  article:nth-child(49),  article:nth-child(50),  article:nth-child(51),
 article:nth-child(47),  article:nth-child(52),  article:nth-child(53),  article:nth-child(54) {
     border-right: solid 1px #1e1e1e;
     border-bottom: solid 1px #1e1e1e;
 } 
 
-article:nth-child(19) {
-    grid-column-end: span 4; 
-    grid-row-end: span 8;
-    border-bottom: solid 1px #1e1e1e;
-    border-right: solid 1px #1e1e1e;
-    align-content: center;
-}
 
-/*
-
-#longarrow{
-    height: 70%;
-    margin: 45% 30%;
-}
-
-*/
 
 article:nth-child(20) {
     grid-column-end: span 2; 
     border-bottom: solid 1px #1e1e1e;
     border-right: solid 1px #1e1e1e;
+}
+
+article:nth-child(23){
+    grid-column-end: span 9; 
+    grid-row-end: span 2;
+    border-bottom: solid 1px #1e1e1e;
+    border-right: solid 1px #1e1e1e;
+
+}
+
+article:nth-child(28), article:nth-child(30),  article:nth-child(32), article:nth-child(35) {
+    grid-column-end: span 9; 
+    border-bottom: solid 1px #1e1e1e;
+    border-right: solid 1px #1e1e1e;
+
 }
