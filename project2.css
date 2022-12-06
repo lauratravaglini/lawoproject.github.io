@@ -20,15 +20,17 @@ h1{
 
 h2 {
     font-family: 'Noto Serif Display', serif;
-    font-size: 1.9vw;
+    font-size: 2vw;
     font-weight: 200;
     text-align: center;
+}
+
+.nav {
     position: relative;
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 h3 {
     font-family: 'Noto Serif Display', serif;
     font-size: 1.9vw;
