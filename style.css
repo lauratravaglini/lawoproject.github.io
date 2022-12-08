@@ -147,6 +147,41 @@ article:nth-child(29):hover a, article:nth-child(37):hover a  {
     font-style: italic;
 }
 
+article:nth-child(2) {
+    background-image: url("./img/window4.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+article:nth-child(3) {
+    background-image: url("./img/window5.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+article:nth-child(4) {
+    background-image: url("./img/window6.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+/*
+
+article:nth-child(7) {
+    background-image: url("./img/bricks1.png");
+    background-size: 12vw;
+    background-repeat: repeat-x;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+*/
+
 article:nth-child(12) {
     background-image: url("./img/window3.png");
     background-size: 6vw;
