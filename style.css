@@ -132,7 +132,8 @@ article:first-child:hover {
 }
 
 article:nth-child(9):hover, article:nth-child(10):hover,
-article:nth-child(11):hover, article:nth-child(21):hover, article:nth-child(23):hover, 
+article:nth-child(11):hover, article:nth-child(12):hover, 
+article:nth-child(21):hover, article:nth-child(23):hover, 
 article:nth-child(25):hover, article:nth-child(27):hover, article:nth-child(29):hover, 
 article:nth-child(35):hover, article:nth-child(36):hover,  article:nth-child(37):hover{
     background-color: #1e1e1e;
@@ -140,7 +141,8 @@ article:nth-child(35):hover, article:nth-child(36):hover,  article:nth-child(37)
 }
 
 article:nth-child(9):hover a, article:nth-child(10):hover a,
-article:nth-child(11):hover a, article:nth-child(21):hover a, article:nth-child(23):hover a, 
+article:nth-child(11):hover a, article:nth-child(12):hover a, 
+article:nth-child(21):hover a, article:nth-child(23):hover a, 
 article:nth-child(25):hover a, article:nth-child(27):hover a, 
 article:nth-child(29):hover a, article:nth-child(37):hover a  {
     color: #F1EDE9 !important;
@@ -148,7 +150,7 @@ article:nth-child(29):hover a, article:nth-child(37):hover a  {
 }
 
 article:nth-child(2) {
-    background-image: url("./img/window4.png");
+    background-image: url("./img/window1.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
@@ -156,7 +158,7 @@ article:nth-child(2) {
 }
 
 article:nth-child(3) {
-    background-image: url("./img/window5.png");
+    background-image: url("./img/window4.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
@@ -182,8 +184,15 @@ article:nth-child(7) {
 }
 */
 
-article:nth-child(12) {
-    background-image: url("./img/window3.png");
+article:nth-child(5) {
+    background-image: url("./img/window5.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+article:nth-child(6) {
+    background-image: url("./img/window2.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
@@ -191,14 +200,14 @@ article:nth-child(12) {
 }
 
 article:nth-child(13) {
-    background-image: url("./img/window1.png");
+    background-image: url("./img/window7.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
 }
 article:nth-child(14) {
-    background-image: url("./img/window2.png");
+    background-image: url("./img/window8.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;

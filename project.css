@@ -132,38 +132,81 @@ article {
     place-content: center;
 }
 
-article:first-child:hover {
+article:first-child:hover, article:nth-child(48):hover {
     background-color: #1e1e1e;
 }
 
-article:nth-child(9):hover, article:nth-child(10):hover, article:nth-child(11):hover {
+article:nth-child(9):hover, article:nth-child(10):hover, 
+article:nth-child(11):hover, article:nth-child(12):hover {
     background-color: #1e1e1e;
     color: #F1EDE9 !important;
 }
 
 article:nth-child(9):hover a, article:nth-child(10):hover a,
-article:nth-child(11):hover a {
+article:nth-child(11):hover a, article:nth-child(12):hover a {
     color: #F1EDE9 !important;
     font-style: italic;
 }
-
-article:nth-child(12) {
-    background-image: url("./img/window3.png");
-    background-size: 6vw;
-    background-repeat:no-repeat;
-    background-position-x: 50%;
-    background-position-y: 50%;
-}
-
-article:nth-child(13) {
+article:nth-child(2) {
     background-image: url("./img/window1.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;
 }
-article:nth-child(14) {
+
+article:nth-child(3) {
+    background-image: url("./img/window4.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+article:nth-child(4) {
+    background-image: url("./img/window6.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+/*
+
+article:nth-child(7) {
+    background-image: url("./img/bricks1.png");
+    background-size: 12vw;
+    background-repeat: repeat-x;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+*/
+
+article:nth-child(5) {
+    background-image: url("./img/window5.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+article:nth-child(6) {
     background-image: url("./img/window2.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+
+article:nth-child(13) {
+    background-image: url("./img/window7.png");
+    background-size: 6vw;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+article:nth-child(14) {
+    background-image: url("./img/window8.png");
     background-size: 6vw;
     background-repeat:no-repeat;
     background-position-x: 50%;
@@ -224,7 +267,7 @@ article:first-child {
     border: solid 1px #1e1e1e;
 }
 
-article:first-child:hover #logo {
+article:first-child:hover #logo, article:nth-child(48):hover #door {
     filter: invert(1);
 }
 
@@ -237,7 +280,7 @@ article:first-child:hover #logo {
     transform: translate(-50%, -50%);
 }
 
-#github, #unibo {
+#github, #unibo, #door {
     width: 6vw;
     height: auto;
     position: relative;
