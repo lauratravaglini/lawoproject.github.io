@@ -104,6 +104,15 @@ a {
     color: #1e1e1e;
 }
 
+p a {
+    text-decoration: underline;
+    text-underline-position: below;
+}
+p a:hover {
+    font-style: italic;
+    color: #1e1e1e;
+}
+
 a:hover {
     color: #F1EDE9;
 }
