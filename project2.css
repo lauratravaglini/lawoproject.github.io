@@ -145,13 +145,13 @@ article:first-child:hover, article:nth-child(47):hover {
     background-color: #1e1e1e;
 }
 
-article:nth-child(9):hover, article:nth-child(10):hover, article:nth-child(11):hover {
+article:nth-child(9):hover, article:nth-child(10):hover, article:nth-child(11):hover, article:nth-child(12):hover {
     background-color: #1e1e1e;
     color: #F1EDE9 !important;
 }
 
 article:nth-child(9):hover a, article:nth-child(10):hover a,
-article:nth-child(11):hover a {
+article:nth-child(11):hover a, article:nth-child(12):hover a  {
     color: #F1EDE9 !important;
     font-style: italic;
 }
