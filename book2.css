@@ -140,7 +140,7 @@ article {
     place-content: center;
 }
 
-article:first-child:hover, article:nth-child(48):hover {
+article:first-child:hover, article:nth-child(48):hover, article:nth-child(18):hover, article:nth-child(16):hover {
     background-color: #1e1e1e;
 }
 
@@ -288,7 +288,7 @@ article:first-child {
     border: solid 1px #1e1e1e;
 }
 
-article:first-child:hover #logo,  article:nth-child(48):hover #door {
+article:first-child:hover #logo,  article:nth-child(48):hover #door , article:nth-child(18):hover #arrow, article:nth-child(16):hover #arrow2{
     filter: invert(1);
 }
 
@@ -308,6 +308,26 @@ article:first-child:hover #logo,  article:nth-child(48):hover #door {
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+#arrow {
+    width: 2vw;
+    height: auto;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#arrow2 {
+    width: 2vw;
+    height: auto;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
 }
 
 article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(5), article:nth-child(6),

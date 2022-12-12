@@ -130,7 +130,7 @@ article {
     place-content: center;
 }
 
-article:first-child:hover, article:nth-child(41):hover {
+article:first-child:hover, article:nth-child(41):hover, article:nth-child(18):hover {
     background-color: #1e1e1e;
 }
 
@@ -218,7 +218,7 @@ article:nth-child(19) {
     background-position-x: 50%;
 }
 
-article:nth-child(41):hover #door{
+article:nth-child(41):hover #door,article:nth-child(18):hover #arrow {
     filter: invert(1);
 }
 
@@ -245,6 +245,15 @@ article:first-child:hover #logo {
 
 #github, #unibo, #door {
     width: 6vw;
+    height: auto;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#arrow {
+    width: 2vw;
     height: auto;
     position: relative;
     top:50%;
