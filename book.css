@@ -30,6 +30,15 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.nav a {
+    text-decoration: none !important;
+}
+
+.nav a:hover {
+    color: #F1EDE9 !important;
+}
+
 h4 {
     font-family: 'Noto Serif Display', serif;
     font-size: 1.5vw;
@@ -98,12 +107,13 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline solid 1px #1e1e1e;
+    text-underline-position: below !important;
     color: #1e1e1e;
 }
 
 a:hover {
-    color: #F1EDE9;
+    font-style: italic;
 }
 
 section {

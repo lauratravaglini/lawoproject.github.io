@@ -24,12 +24,14 @@ h2 {
     text-align: center;
 }
 
-.nav {
-    position: relative;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.nav a {
+    text-decoration: none !important;
 }
+
+.nav a:hover {
+    color: #F1EDE9 !important;
+}
+
 
 h3 {
     font-family: 'Noto Serif Display', serif;
@@ -101,13 +103,15 @@ body {
     overflow: auto;
 }
 
+
 a {
-    text-decoration: none;
+    text-decoration: underline solid 1px #1e1e1e;
+    text-underline-position: below !important;
     color: #1e1e1e;
 }
 
 a:hover {
-    color: #F1EDE9;
+    font-style: italic;
 }
 
 .alt_a a{
