@@ -31,6 +31,15 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.nav a {
+    text-decoration: none !important;
+}
+
+.nav a:hover {
+    color: #F1EDE9 !important;
+}
+
 h3 {
     font-family: 'Noto Serif Display', serif;
     font-size: 1.9vw;
@@ -97,14 +106,14 @@ body {
     text-align: left;
     overflow: auto;
 }
-
 a {
-    text-decoration: none;
+    text-decoration: underline solid 1px #1e1e1e;
+    text-underline-position: below !important;
     color: #1e1e1e;
 }
 
 a:hover {
-    color: #F1EDE9;
+    font-style: italic;
 }
 
 .alt_a a{
@@ -288,12 +297,12 @@ article:nth-child(9), article:nth-child(10), article:nth-child(11), article:nth-
 article:nth-child(14), article:nth-child(15), article:nth-child(16), article:nth-child(18), article:nth-child(22), 
 article:nth-child(23), article:nth-child(26),  article:nth-child(28),  article:nth-child(31), article:nth-child(34),
 article:nth-child(37),  article:nth-child(39), article:nth-child(41), article:nth-child(43), article:nth-child(46),article:nth-child(47),
-article:nth-child(48), article:nth-child(49),   article:nth-child(51){
+article:nth-child(48), article:nth-child(49){
     grid-column-end: span 2; 
     border-right: solid 1px #1e1e1e;
     border-bottom: solid 1px #1e1e1e;
 }
-article:nth-child(50), article:nth-child(52) {
+article:nth-child(50), article:nth-child(53) {
     grid-column-end: span 4; 
     border-right: solid 1px #1e1e1e;
     border-bottom: solid 1px #1e1e1e;
