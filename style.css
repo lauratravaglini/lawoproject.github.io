@@ -56,7 +56,21 @@ span {
 
 }
 
+.text2 {
+    position: relative !important;
+    top:50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding-right: 8%;
+    padding-left: 8%;
+    font-size: calc(1.2vw + .5rem);
+}
+
 .text p {
+    text-align: left;
+}
+
+.text2 p {
     text-align: left;
 }
 
