@@ -54,7 +54,14 @@ h5 {
     padding-left: 2vw;
     padding-right: 1vw;
 }
-
+.medium {
+    font-size: 1.2vw !important;
+    padding: 1.2vw 2vw !important;
+    position: relative !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
 
 span {
     font-style: italic;
