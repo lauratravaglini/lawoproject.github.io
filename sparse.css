@@ -88,7 +88,8 @@ span {
 
 .small {
     text-align: right !important;
-    font-size: .8vw !important;
+    margin-top: .5vh;
+    font-size: .9vw !important;
 }
 
 .medium {
