@@ -67,6 +67,17 @@ h5 {
 
 span {
     font-style: italic;
+ 
+}
+
+.emp1 {
+    color: orangered;
+    font-weight: 400;
+} 
+
+.emp2 {
+    color:royalblue;
+    font-weight: 400;
 }
 
 .under {
